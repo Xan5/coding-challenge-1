@@ -1,8 +1,12 @@
 Welcome Mining Camp Inc! Your duties are to make sure our miners, working in difficult environments, are making correct associations, and stopping their operations when the tunnel is about to crumble. For that, our mathematicians finally found with absolute certainty the pattern the numbers mined follow before going too far.
 The Problem
+
 Here's how the mathematicians have written the solution, they did write it in understandable words for once:
-" The first 100 numbers of the mine are always secure, but after that, the next number is only safe if it is the sum of 2 numbers in the previous 100. "
+
+" The first 100 numbers of the mine are always secure, but after that, the next number is only safe if it is the sum of 2 numbers in the previous 100."
+
 Here's an example in a smaller scale mine, where only the last 5 numbers matters:
+```
 35
 20
 15
@@ -23,5 +27,6 @@ Here's an example in a smaller scale mine, where only the last 5 numbers matters
 277
 309
 576
+```
+
 In that case, the number 127 will make the mine crumble, as there is no 2-number combination in the last 5 numbers that sum to 127.
-Attached to this message is your input for the challenge, good luck!
